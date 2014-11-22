@@ -1,6 +1,6 @@
 {
     "path": {
-        "www/sass/style.scss": {
+        "www/content/sass/style.scss": {
             "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../css/",
@@ -8,9 +8,9 @@
                 "sourceComments": "map",
                 "outputStyle": "nested"
             },
-            "linting.collapsed": false
+            "linting.collapsed": true
         },
-        "www/vendor/materialize/*.scss": {
+        "www/materialize/*.scss": {
             "sass.enabled": false,
             "linting.collapsed": false
         }

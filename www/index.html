@@ -4,13 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Winball</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="vendor/bower_components/angular/angular.js"></script>
-    <script src="vendor/bower_components/jQuery/dist/jquery.js"></script>
-    <script src="vendor/materialize/materialize.js"></script>
-    <script src="js/winball.js"></script>
-    <script src="app/app.js"></script>
-    <script src="app/controllers/mainController.js"></script>
+    <link rel="stylesheet" href="content/css/style.css">
 </head>
 
 <body ng-app="winball" ng-controller="mainController">
@@ -22,10 +16,30 @@
                 <li><a href="#">Licence</a></li>
                 <li><a href="#">Contribute</a></li>
             </ul>
-            <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+            <a class="button-collapse"
+               href="#"
+               data-activates="nav-mobile"
+               material-nav>
+                   <i class="mdi-navigation-menu"></i>
+            </a>
         </div>
     </nav>
     <p>{{ message }}</p>
+
+    <!-- 3rd party libraries -->
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/jQuery/dist/jquery.js"></script>
+    <script src="materialize/js/materialize.js"></script>
+
+    <!-- Load app main script -->
+    <script src="app/app.js"></script>
+
+    <!-- Load controllers -->
+    <script src="app/controllers/mainController.js"></script>
+
+    <!-- Load custom directives -->
+    <script src="app/directives/material-nav.js"></script>
+
 </body>
 
 </html>
