@@ -1,0 +1,18 @@
+{
+    "path": {
+        "www/sass/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false
+        },
+        "www/vendor/materialize/*.scss": {
+            "sass.enabled": false,
+            "linting.collapsed": false
+        }
+    }
+}

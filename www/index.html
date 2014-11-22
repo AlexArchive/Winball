@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Winball</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="vendor/bower_components/angular/angular.js"></script>
+    <script src="vendor/bower_components/jQuery/dist/jquery.js"></script>
+    <script src="vendor/materialize/materialize.js"></script>
+    <script src="js/winball.js"></script>
+    <script src="app/app.js"></script>
+    <script src="app/controllers/mainController.js"></script>
+</head>
+
+<body ng-app="winball" ng-controller="mainController">
+    <nav>
+        <div class="centered-container">
+            <a href="#" class="brand-logo">Winball</a>
+            <ul id="nav-mobile" class="right side-nav">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Licence</a></li>
+                <li><a href="#">Contribute</a></li>
+            </ul>
+            <a class="button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-menu"></i></a>
+        </div>
+    </nav>
+    <p>{{ message }}</p>
+</body>
+
+</html>

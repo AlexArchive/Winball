@@ -1,0 +1,15 @@
+@import "../vendor/materialize/materialize";
+
+$base-color: "teal";
+
+.centered-container {
+    max-width: 960px;
+    margin: auto;
+}
+
+nav {
+    background-color: color($base-color, "base");
+    ul li:hover {
+        background-color: color($base-color, "lighten-1");
+    }
+}
