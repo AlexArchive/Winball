@@ -1,0 +1,12 @@
+{
+    "name": "Ghost Theme",
+    "author": "Mavamaarten",
+    "submitedBy": "ByteBlast",
+    "vbFile": "code/GhostTheme.vb",
+    "csFile": null,
+    "picturesUrls" : [
+        "thumbnail.png",
+        "screenshots/home.png",
+        "screenshots/tabcontrol.png",
+    ]
+}
