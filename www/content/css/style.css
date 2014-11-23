@@ -7423,61 +7423,89 @@ ul.table-of-contents a {
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 999; }
 
-/* line 5, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+/* line 6, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
 .centered-container {
   max-width: 1200px;
-  margin: auto; }
+  margin: auto;
+  padding: 0 20px; }
 
-/* line 10, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-.btn, .btn-large, .btn-large {
-  background-color: #009688; }
-  /* line 12, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  .btn:hover, .btn-large:hover, .btn-large:hover {
-    background-color: #26a69a; }
-
-/* line 17, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-.card {
-  background-color: #009688; }
-
-/* line 21, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+/* line 12, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
 nav {
-  padding: 0 25px;
-  background-color: #009688; }
-  /* line 24, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  background-color: #2196F3; }
+  /* line 14, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
   nav ul li:hover {
-    background-color: #26a69a; }
+    background-color: #42A5F5; }
+  /* line 17, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  nav .brand-logo {
+    font-weight: 300; }
 
-/* line 29, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+/* line 22, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
 .banner {
-  background-color: #26a69a;
+  background-color: #42A5F5;
   color: white;
-  padding-top: 25px; }
-  /* line 33, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  padding-top: 30px;
+  margin-bottom: 25px; }
+  /* line 27, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .banner__description {
+    font-weight: 300; }
+  /* line 31, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .banner__discover-button {
+    height: 70px;
+    line-height: 70px;
+    font-size: 18px;
+    margin: 20px 0; }
+  /* line 38, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .banner__attribution {
+    color: white;
+    margin: 0;
+    padding-bottom: 25px; }
+  /* line 44, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .banner__link {
+    color: white; }
+    /* line 46, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+    .banner__link:hover {
+      color: #82B1FF; }
+  /* line 51, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
   .banner .latest-theme {
-    background-color: #4db6ac; }
-  /* line 36, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+    background-color: #64B5F6;
+    overflow: hidden;
+    padding: 14px 0;
+    line-height: 36px; }
+    /* line 57, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+    .banner .latest-theme__text {
+      float: left;
+      margin: 0; }
+    /* line 62, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+    .banner .latest-theme__button {
+      float: right;
+      margin: 0; }
+  /* line 68, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
   .banner .row {
-    margin: 16px 0;
-    text-align: center; }
+    text-align: center;
+    margin: 20px 0; }
 
-/* line 42, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-.latest-theme {
-  overflow: hidden;
-  padding: 20px 0; }
-  /* line 45, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  .latest-theme p {
-    float: left; }
-  /* line 48, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  .latest-theme a {
-    float: right;
-    margin: 0; }
+/* line 74, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+.card {
+  background-color: #42A5F5; }
+  /* line 76, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .card .card-footer {
+    overflow: hidden; }
+    /* line 78, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+    .card .card-footer a {
+      margin: 10px 0;
+      float: right; }
 
-/* line 53, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-.card-footer {
-  overflow: hidden; }
-  /* line 55, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  .card-footer a {
-    margin: 10px 0;
-    float: right; }
+/* line 85, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+h1 {
+  font-weight: 300; }
+
+/* line 90, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+.btn, .btn-large, .btn-large {
+  box-shadow: none;
+  background-color: #2196F3; }
+  /* line 93, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .btn:hover, .btn-large:hover, .btn-large:hover {
+    background-color: #42A5F5;
+    box-shadow: none; }
 
 /*# sourceMappingURL=style.css.map */

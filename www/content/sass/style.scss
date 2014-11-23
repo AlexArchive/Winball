@@ -1,59 +1,97 @@
 @import "../../bower_components/materialize/sass/materialize";
 
-$base-color: "teal";
+$base-color: "blue";
+$inner-width: 1200px;
 
 .centered-container {
-    max-width: 1200px;
+    max-width: $inner-width;
     margin: auto;
-}
-
-.btn, .btn-large  {
-    background-color: color($base-color, "base");
-    &:hover {
-        background-color: color($base-color, "lighten-1");
-    }
-}
-
-.card {
-    background-color: color($base-color, "base");
+    padding: 0 20px;
 }
 
 nav {
-    padding: 0 25px;
     background-color: color($base-color, "base");
     ul li:hover {
         background-color: color($base-color, "lighten-1");
+    }
+    .brand-logo {
+        font-weight: 300;
     }
 }
 
 .banner {
     background-color: color($base-color, "lighten-1");
     color: white;
-    padding-top: 25px;
+    padding-top: 30px;
+    margin-bottom: 25px;
+    &__description {
+        font-weight: 300;
+    }
+
+    &__discover-button {
+        height: 70px;
+        line-height: 70px;
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    &__attribution {
+        color: white;
+        margin: 0;
+        padding-bottom: 25px;
+    }
+
+    &__link {
+        color: white;
+        &:hover {
+            color: color($base-color, "accent-1");
+        }
+    }
+
     .latest-theme {
         background-color: color($base-color, "lighten-2");
+        overflow: hidden;
+        padding: 14px 0;
+        line-height: 36px;
+
+        &__text {
+            float: left;
+            margin: 0;
+        }
+
+        &__button {
+            float: right;
+            margin: 0;
+        }
     }
+
     .row {
-        margin: 16px 0;
         text-align: center;
+        margin: 20px 0;
     }
 }
 
-.latest-theme {
-    overflow: hidden;
-    padding: 20px 0;
-    p {
-        float: left;
-    }
-    a {
-        float: right;
-        margin: 0;
+.card {
+    background-color: color($base-color, "lighten-1");
+    .card-footer {
+        overflow: hidden;
+        a {
+            margin: 10px 0;
+            float: right;
+        }
     }
 }
-.card-footer {
-    overflow: hidden;
-    a {
-        margin: 10px 0;
-        float: right;
+
+h1 {
+    font-weight: 300;
+}
+
+.btn,
+.btn-large {
+    box-shadow: none;
+    background-color: color($base-color, "base");
+    &:hover {
+        background-color: color($base-color, "lighten-1");
+        box-shadow: none;
     }
 }

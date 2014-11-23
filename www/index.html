@@ -11,14 +11,16 @@
 
     <nav>
         <div class="centered-container">
-            <a class="button-collapse" href="#" data-activates="nav-mobile" material-nav><i class="mdi-navigation-menu"></i></a>
-            <a href="#" class="brand-logo">Winball</a>
+            <a class="button-collapse" href="#" data-activates="nav-mobile" material-nav>
+                <i class="mdi-navigation-menu"></i>
+            </a>
+            <a class="brand-logo">Winball</a>
             <ul id="nav-mobile" class="right side-nav">
                 <li>
                     <a href="#">About</a>
                 </li>
                 <li>
-                    <a href="#">Legal</a>
+                    <a href="#">Terms</a>
                 </li>
             </ul>
         </div>
@@ -26,21 +28,24 @@
 
     <section class="banner">
         <div class="centered-container">
-            <h1 class="center-on-small-only">Winball</h1>
+            <h1 class="banner__title">Winball</h1>
             <div class="row">
-                <h4 class="center-on-small-only">Winball is a repository of aesthetic hand-crafted <em>free</em> themes for Windows Forms.</h4>
+                <h4 class="banner__description">Winball is a repository of aesthetic hand-crafted <em>free</em> themes for Windows Forms.</h4>
             </div>
             <div class="row">
-                <a class="waves-effect waves-light btn-large"><i class="mdi-navigation-more-horiz right"></i>Discover Themes</a>
+                <a class="banner__discover-button waves-effect waves-light btn-large">
+                    <i class="mdi-action-search"></i>
+                    Discover Themes
+                </a>
             </div>
             <div class="row">
-                <p>Website built by <a href="#">ByteBlast</a>. Themes provided by the community.</p>
+                <p class="banner__attribution">Website built by <a class="banner__link" href="#">@ByteBlast</a>. Themes provided by the community.</p>
             </div>
         </div>
         <div class="latest-theme">
             <div class="centered-container">
-                <p class="latestTheme">Latest theme: GhostTheme about 2 hours ago.</p>
-                <a href="#" class="btn waves-effect waves-light">Submit Theme</a>
+                <p class="latest-theme__text">Latest theme: GhostTheme about 2 hours ago.</p>
+                <a href="#" class="latest-theme__button btn waves-effect waves-light">Submit Theme</a>
             </div>
         </div>
     </section>
