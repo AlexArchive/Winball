@@ -9,6 +9,7 @@ $base-color: "blue";
 
 nav {
     background-color: color($base-color, "base");
+    margin-bottom: 50px;
     ul li:hover {
         background-color: color($base-color, "lighten-1");
     }
@@ -18,7 +19,7 @@ nav {
     height: 150px;
     h1 {
         background-color: color($base-color, "base");
-        border: 1px white solid;
+        border: 1px black solid;
         color: white;
         padding: 0 20px;
     }

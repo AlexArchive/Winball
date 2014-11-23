@@ -6,5 +6,4 @@ app.controller('mainController', function($scope, $http) {
 
     $http.get('app/db/themes.json')
         .success(themesAvailable);
-
 });
