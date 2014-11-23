@@ -1,4 +1,4 @@
-@import "../../materialize/sass/materialize";
+@import "../../bower_components/materialize/sass/materialize";
 
 $base-color: "teal";
 
@@ -13,8 +13,6 @@ $base-color: "teal";
         background-color: color($base-color, "lighten-1");
     }
 }
-
-
 
 .card {
     background-color: color($base-color, "base");
