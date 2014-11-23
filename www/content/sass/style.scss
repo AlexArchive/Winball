@@ -1,6 +1,6 @@
 @import "../../materialize/sass/materialize";
 
-$base-color: "teal";
+$base-color: "blue";
 
 .centered-container {
     max-width: 1200px;
@@ -16,7 +16,12 @@ nav {
 
 .card-content {
     height: 150px;
+    h1 {
+        background-color: color($base-color, "base");
+        border: 1px white solid;
+        color: white;
+        padding: 0 20px;
+    }
     img {
-        -webkit-filter: blur(3px);
     }
 }

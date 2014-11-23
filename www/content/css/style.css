@@ -7430,16 +7430,19 @@ ul.table-of-contents a {
 
 /* line 10, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
 nav {
-  background-color: #009688; }
+  background-color: #2196F3; }
   /* line 12, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
   nav ul li:hover {
-    background-color: #26a69a; }
+    background-color: #42A5F5; }
 
 /* line 17, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
 .card-content {
   height: 150px; }
   /* line 19, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  .card-content img {
-    -webkit-filter: blur(3px); }
+  .card-content h1 {
+    background-color: #2196F3;
+    border: 1px white solid;
+    color: white;
+    padding: 0 20px; }
 
 /*# sourceMappingURL=style.css.map */
