@@ -3,7 +3,7 @@
 $base-color: "teal";
 
 .centered-container {
-    max-width: 960px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -11,5 +11,12 @@ nav {
     background-color: color($base-color, "base");
     ul li:hover {
         background-color: color($base-color, "lighten-1");
+    }
+}
+
+.card-content {
+    height: 150px;
+    img {
+        -webkit-filter: blur(3px);
     }
 }

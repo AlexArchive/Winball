@@ -1,14 +1,24 @@
-[
-  {
-    "name": "Ghost Theme",
-    "directory": "ghost-theme",
-    "author": "Mavamaarten",
+[{
+    "name": "Material Theme",
+    "directory": "material-theme",
+    "author": "Earn",
     "submitedOn": "22/11/2014",
     "keywords": [
-      "clean",
-      "dark",
-      "glossy"
+        "material",
+        "clean",
+        "flat"
     ],
-    "thumbnail": "ghost-theme/thumbnail.png"
-  }
-]
+    "thumbnail": "app/db/material-theme/thumbnail.png"
+},
+{
+    "name": "Sugar Theme",
+    "directory": "sugar-theme",
+    "author": "arun9020",
+    "submitedOn": "22/11/2014",
+    "keywords": [
+        "material",
+        "clean",
+        "flat"
+    ],
+    "thumbnail": "app/db/sugar-theme/thumbnail.png"
+}]
