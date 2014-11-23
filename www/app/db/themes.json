@@ -1,6 +1,6 @@
 [{
     "name": "Material Theme",
-    "directory": "material-theme",
+    "directory": "app/db/material-theme",
     "author": "Earn",
     "submitedOn": "22/11/2014",
     "keywords": [
@@ -12,7 +12,7 @@
 },
 {
     "name": "Sugar Theme",
-    "directory": "sugar-theme",
+    "directory": "app/db/sugar-theme",
     "author": "arun9020",
     "submitedOn": "22/11/2014",
     "keywords": [

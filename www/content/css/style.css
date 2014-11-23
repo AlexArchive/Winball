@@ -7429,21 +7429,55 @@ ul.table-of-contents a {
   margin: auto; }
 
 /* line 10, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-nav {
-  background-color: #2196F3;
-  margin-bottom: 50px; }
-  /* line 13, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  nav ul li:hover {
-    background-color: #42A5F5; }
+.btn, .btn-large, .btn-large {
+  background-color: #009688; }
+  /* line 12, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .btn:hover, .btn-large:hover, .btn-large:hover {
+    background-color: #26a69a; }
 
-/* line 18, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-.card-content {
-  height: 150px; }
-  /* line 20, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
-  .card-content h1 {
-    background-color: #2196F3;
-    border: 1px black solid;
-    color: white;
-    padding: 0 20px; }
+/* line 19, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+.card {
+  background-color: #009688; }
+
+/* line 23, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+nav {
+  padding: 0 25px;
+  background-color: #009688; }
+  /* line 26, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  nav ul li:hover {
+    background-color: #26a69a; }
+
+/* line 31, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+.banner {
+  background-color: #26a69a;
+  color: white;
+  padding-top: 25px; }
+  /* line 35, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .banner .latest-theme {
+    background-color: #4db6ac; }
+  /* line 38, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .banner .row {
+    margin: 16px 0;
+    text-align: center; }
+
+/* line 44, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+.latest-theme {
+  overflow: hidden;
+  padding: 20px 0; }
+  /* line 47, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .latest-theme p {
+    float: left; }
+  /* line 50, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .latest-theme a {
+    float: right;
+    margin: 0; }
+
+/* line 55, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+.card-footer {
+  overflow: hidden; }
+  /* line 57, S:/Programming/C#/Git/Winball/www/content/sass/style.scss */
+  .card-footer a {
+    margin: 10px 0;
+    float: right; }
 
 /*# sourceMappingURL=style.css.map */

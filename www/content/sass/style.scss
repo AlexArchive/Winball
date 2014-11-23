@@ -1,28 +1,61 @@
 @import "../../materialize/sass/materialize";
 
-$base-color: "blue";
+$base-color: "teal";
 
 .centered-container {
     max-width: 1200px;
     margin: auto;
 }
 
-nav {
+.btn, .btn-large  {
     background-color: color($base-color, "base");
-    margin-bottom: 50px;
+    &:hover {
+        background-color: color($base-color, "lighten-1");
+    }
+}
+
+
+
+.card {
+    background-color: color($base-color, "base");
+}
+
+nav {
+    padding: 0 25px;
+    background-color: color($base-color, "base");
     ul li:hover {
         background-color: color($base-color, "lighten-1");
     }
 }
 
-.card-content {
-    height: 150px;
-    h1 {
-        background-color: color($base-color, "base");
-        border: 1px black solid;
-        color: white;
-        padding: 0 20px;
+.banner {
+    background-color: color($base-color, "lighten-1");
+    color: white;
+    padding-top: 25px;
+    .latest-theme {
+        background-color: color($base-color, "lighten-2");
     }
-    img {
+    .row {
+        margin: 16px 0;
+        text-align: center;
+    }
+}
+
+.latest-theme {
+    overflow: hidden;
+    padding: 20px 0;
+    p {
+        float: left;
+    }
+    a {
+        float: right;
+        margin: 0;
+    }
+}
+.card-footer {
+    overflow: hidden;
+    a {
+        margin: 10px 0;
+        float: right;
     }
 }

@@ -8,7 +8,7 @@
                 "sourceComments": "map",
                 "outputStyle": "nested"
             },
-            "linting.collapsed": true
+            "linting.collapsed": false
         },
         "www/materialize/*.scss": {
             "sass.enabled": false,

@@ -8,42 +8,61 @@
 </head>
 
 <body ng-app="winball" ng-controller="mainController">
+
     <nav>
         <div class="centered-container">
+            <a class="button-collapse" href="#" data-activates="nav-mobile" material-nav><i class="mdi-navigation-menu"></i></a>
             <a href="#" class="brand-logo">Winball</a>
             <ul id="nav-mobile" class="right side-nav">
-                <li><a href="#">About</a>
+                <li>
+                    <a href="#">About</a>
                 </li>
-                <li><a href="#">Licence</a>
-                </li>
-                <li><a href="#">Contribute</a>
+                <li>
+                    <a href="#">Legal</a>
                 </li>
             </ul>
-            <a class="button-collapse" href="#" data-activates="nav-mobile" material-nav>
-                <i class="mdi-navigation-menu"></i>
-            </a>
         </div>
     </nav>
-    <div class="centered-container">
-        <div class="input-field">
-            <input type="text" required ng-model="search" />
-            <label>Search</label>
+
+    <section class="banner">
+        <div class="centered-container">
+            <h1 class="center-on-small-only">Winball</h1>
+            <div class="row">
+                <h4 class="center-on-small-only">Winball is a repository of aesthetic hand-crafted <em>free</em> themes for Windows Forms.</h4>
+            </div>
+            <div class="row">
+                <a class="waves-effect waves-light btn-large"><i class="mdi-navigation-more-horiz right"></i>Discover Themes</a>
+            </div>
+            <div class="row">
+                <p>Website built by <a href="#">ByteBlast</a>. Themes provided by the community.</p>
+            </div>
         </div>
-        <div class="row">
-            <div class="col s12 m6" ng-repeat="theme in themes | filter:search">
-                <div class="card">
-                    <div class="card-content">
-                        <img ng-src="{{ theme.thumbnail }}">
-                        <h1>{{ theme.name }} </h1>
-                    </div>
-                    <div class="card-footer">
-                        <p>Built by {{ theme.author }}</p>
-                        <a href="" class="waves-effect waves-light blue btn">Information</a>
+        <div class="latest-theme">
+            <div class="centered-container">
+                <p class="latestTheme">Latest theme: GhostTheme about 2 hours ago.</p>
+                <a href="#" class="btn waves-effect waves-light">Submit Theme</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="centered-container">
+            <div class="row">
+                <div class="col s12 m6" ng-repeat="theme in themes">
+                    <div class="card">
+                        <div class="card-content">
+                            <img ng-src="{{ image.thumb" alt="">
+                            <h1> {{ theme.name }} </h1>
+                            <h5>Theme built by {{ theme.author }} </h5>
+                        </div>
+                        <div class="card-footer">
+                            <a class="waves-effect waves-light btn"><i class="mdi-content-forward"></i>Details</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
     <!-- 3rd party libraries -->
     <script src="bower_components/angular/angular.js"></script>
