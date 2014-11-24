@@ -1,0 +1,13 @@
+{
+  "name": "Winball",
+  "description": "Themes for Windows Forms",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ByteBlast/Winball",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "1.3.x",
+    "jQuery": "~2.1.1",
+    "materialize": "*"
+  }
+}

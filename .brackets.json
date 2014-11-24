@@ -1,0 +1,18 @@
+{
+    "path": {
+        "www/sass/main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../css/",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false
+        },
+        "www/bower_components/materialize/sass/*.scss": {
+            "sass.enabled": false,
+            "linting.collapsed": false
+        }
+    }
+}
