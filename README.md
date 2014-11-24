@@ -4,4 +4,4 @@ Winball is a repository of aesthetic hand-crafted *free* themes for Windows Form
 
 ### Install
 - Clone: `git clone http://github.com/byteblast/winball`
-- Install dependencies `npm install`
+- Install dependencies `npm install && bower install`
