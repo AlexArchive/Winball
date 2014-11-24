@@ -1,0 +1,16 @@
+<table class="hoverable bordered">
+    <thead>
+        <tr>
+            <th>Theme Name</th>
+            <th>Theme Author</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="theme in themes">
+            <td>
+                <a href="#/theme/{{ theme.id }}">{{ theme.name }}</a>
+            </td>
+            <td>{{ theme.author }}</td>
+        </tr>
+    </tbody>
+</table>
