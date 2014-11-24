@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Material Theme",
+        "directory": "app/_db/material-theme",
+        "author": "Earn",
+        "submittedOn": "22/11/2014",
+        "keywords": [
+            "material",
+            "clean",
+            "flat"
+        ],
+        "thumbnail": "app/db/material-theme/thumbnail.png"
+    }
+]
